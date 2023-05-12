@@ -16,7 +16,7 @@ export const Interview = () => {
     ])
     return (
         <>
-            <motion.div className="mt-24 mb-10 overflow-hidden flex flex-col items-center font-clash-display h-full md:h-screen">
+            <motion.div id="interviews" className="mt-24 mb-10 overflow-hidden flex flex-col items-center font-clash-display h-full md:h-screen">
                 <motion.h1 initial={{ y: -1000, transitionProperty: "all", transitionTimingFunction: "ease", transitionDelay: "initial" }} animate={{ y: 0, transitionProperty: "all", transitionTimingFunction: "ease" }} className="text-5xl mb-10 font-clash-display">Interviews</motion.h1>
                 <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-11 px-5">
                     {interview.map((data, i) => (

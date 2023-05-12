@@ -95,11 +95,11 @@ export const Navbar = () => {
                                 <Link
                                     activeClass="active"
                                     duration={500}
-                                    href="/"
+                                    href="#"
                                     offset={-100}
                                     smooth={true}
                                     spy={true}
-                                    to="/">Home</Link>
+                                    to="#">Home</Link>
                             </li>
                             <li className="nav-li s-link" data-text="ABOUT">
                                 <Link activeClass="active"
@@ -117,7 +117,7 @@ export const Navbar = () => {
                                     offset={-100}
                                     smooth={true}
                                     spy={true}
-                                    to="project">Projects</Link>
+                                    to="projects">Projects</Link>
                             </li>
                             <li className="nav-li s-link" data-text="BLOG">
                                 <a href="https://blog.heistobi.xyz" target="_blank">Blog</a>
@@ -129,7 +129,7 @@ export const Navbar = () => {
                                     offset={-100}
                                     smooth={true}
                                     spy={true}
-                                    to="interview">Interview</Link>
+                                    to="interviews">Interview</Link>
                             </li>
                             <li className="nav-li s-link" data-text="CONTACT ME">
                                 <Link activeClass="active"
