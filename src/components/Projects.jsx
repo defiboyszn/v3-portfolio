@@ -10,7 +10,7 @@ export const Projects = () => {
         <>
             <div id="projects" className="md:mt-8 font-sans h-fit">
                 <div className="text-center text-3xl px-20">
-                    <h1 className="text-3xl md:text-[100px] leading-[101.48px] font-clash-display font-semibold">Projects</h1>
+                    <h1 className="text-3xl md:text-[100px] leading-[101.48px] font-clash-display font-semibold">Works</h1>
                 </div>
                 <div ref={ref} className="pb-10 grid grid-cols-1 px-10 py-10 place-items-start md:mt-10 gap-5 w-screen h-fit">
                     {
