@@ -1,2 +1,2 @@
-export const personal = "tobithealpha@gmail.com" || "hi@heistobi.xyz"
-export const management = "tobi@frixxapp.com" || "management@heistobi.xyz"
+export const personal = "hi@heistobi.xyz"
+export const management = "management@heistobi.xyz"
