@@ -20,12 +20,6 @@ export const useProjects = () => {
             link: "https://frixxapp.com"
         },
         {
-            img: dativejs,
-            title: "Dativejs",
-            description: "Dativejs is a javascript framework for building websites and webapps with ease",
-            link: "https://dativejs.js.org"
-        },
-        {
             img: devfest,
             title: "Devfest Enugu 2022",
             description: "Devfest Enugu 2022 was an event hosted by google developer group. I volunteered to build the landing page for the event last year (2022)",

@@ -2,6 +2,7 @@ import { useRef, useState } from "react"
 import { motion } from "framer-motion"
 import { Link } from 'react-scroll';
 import { personal } from "../../utils/emails";
+// import tobi from "../../assets/tobi_eth.png"
 
 
 export const Navbar = () => {
@@ -16,7 +17,14 @@ export const Navbar = () => {
         <>
             <motion.div className="fixed z-[99999] bg-white/40 w-screen grid place-self-center md:px-10 h-20 !text-[#000000]">
                 <motion.div className="px-4 py-6 flex flex-row justify-between items-center">
-                    <motion.h1 className="text-xl font-Recoleta-black lg:text-3xl">Tobi</motion.h1>
+                    <div className="flex flex-row items-center gap-1">
+                        <img src={"/favicon.png"} alt="logo" className="object-contain" style={{
+                            height: "40px",
+                            width: "40px",
+                            color: "transparent"
+                        }} />
+                        <motion.h1 className="text-xl font-Recoleta-black lg:text-3xl">.card</motion.h1>
+                    </div>
                     <motion.div>
                     </motion.div>
                     <motion.div className="flex flex-row gap-12 justify-center items-center">
@@ -45,7 +53,7 @@ export const Navbar = () => {
             <motion.div
                 animate={isOpen ? "open" : "closed"}
                 variants={variants} ref={ref}
-                className="flex flex-col-reverse md:flex-row justify-evenly items-center transition-all duration-500 px-5 font-sans text-2xl h-screen overflow-hidden w-screen fixed top-0 z-[999999] bg-[#191919] opacity-5"
+                className="flex flex-col-reverse md:flex-row justify-evenly items-center transition-all duration-500 px-5 font-sans text-2xl h-screen overflow-hidden w-screen fixed top-0 z-[999999] bg-[#191919]/80"
             >
                 <motion.div className="flex flex-row space-x-6">
                     <a href="https://facebook.com/tobithealpha">
@@ -94,6 +102,7 @@ export const Navbar = () => {
                             <li className="nav-li s-link" data-text="HOME">
                                 <Link
                                     activeClass="active"
+                                    onClick={() => setIsOpen(isOpen => !isOpen)}
                                     duration={500}
                                     href="#"
                                     offset={-100}
@@ -103,6 +112,7 @@ export const Navbar = () => {
                             </li>
                             <li className="nav-li s-link" data-text="ABOUT">
                                 <Link activeClass="active"
+                                    onClick={() => setIsOpen(isOpen => !isOpen)}
                                     duration={500}
                                     href="about"
                                     offset={-100}
@@ -112,6 +122,7 @@ export const Navbar = () => {
                             </li>
                             <li className="nav-li s-link" data-text="PROJECT">
                                 <Link activeClass="active"
+                                    onClick={() => setIsOpen(isOpen => !isOpen)}
                                     duration={500}
                                     href="project"
                                     offset={-100}
@@ -124,6 +135,7 @@ export const Navbar = () => {
                             </li>
                             <li className="nav-li s-link" data-text="INTERVIEW">
                                 <Link activeClass="active"
+                                    onClick={() => setIsOpen(isOpen => !isOpen)}
                                     duration={500}
                                     href="interview"
                                     offset={-100}
@@ -133,6 +145,7 @@ export const Navbar = () => {
                             </li>
                             <li className="nav-li s-link" data-text="CONTACT ME">
                                 <Link activeClass="active"
+                                    onClick={() => setIsOpen(isOpen => !isOpen)}
                                     duration={500}
                                     href="contact"
                                     offset={-100}

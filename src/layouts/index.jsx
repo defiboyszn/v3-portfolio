@@ -34,7 +34,7 @@ export const Layout = () => {
             {false ? <Loader /> : <motion.div initial={{ x: -1000, transitionProperty: "all", transitionTimingFunction: "ease", transitionDuration: 3000 }} animate={{ x: 0 }}>
                 <Navbar />
                 <RouterProvider router={router} />
-                <ScrollTop />
+                {/* <ScrollTop /> */}
                 <Footer />
             </motion.div>}
         </>

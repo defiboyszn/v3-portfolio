@@ -584,7 +584,7 @@ html.lenis {
   }
 
   .scroll {
-    animation: scroll 15s linear infinite;
+    animation: scroll 8s linear infinite;
     @apply transition-transform;
   }
 }
@@ -596,5 +596,46 @@ html.lenis {
 
   100% {
     transform: translate3d(-2000px, 0, 0);
+  }
+}
+
+.text-outline {
+  -webkit-text-stroke: 1px #eeee;
+  text-stroke: 1px #eeee;
+  -webkit-text-fill-color: white;
+  color: white;
+}
+
+@layer base {
+  .font-outline-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px black;
+  }
+}
+
+.color-slide {
+  background-image: linear-gradient(
+    -120deg,
+    #171717 0%,
+    #333 29%,
+    #eeee 67%,
+    #111 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 3s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
   }
 }

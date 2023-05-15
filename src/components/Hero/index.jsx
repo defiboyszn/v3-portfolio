@@ -19,7 +19,11 @@ export const Hero = () => {
                 <div className={`h-screen w-full flex flex-col justify-center space-y-56 items-center`}>
                     <div className="px-9 md:px-20 gap-20 md:gap-0 flex flex-col md:flex-row justify-center items-center">
                         <div className="flex flex-col justify-center items-center">
-                            <animated.h1 className='font-clash-display font-[900] text-center text-[60px] leading-[63px] md:text-[140px] md:leading-[130px] transition-all ease-[ease]'>Web3 <br /> Software developer</animated.h1>
+                            <animated.h1 className='font-Recoleta-black capitalize !text-transparent font-outline-2 font-[900] text-center text-[60px] leading-[63px] md:text-[140px] md:leading-[130px] transition-all ease-[ease]'>
+                                Web3 <br />
+                               <span className="color-slide">Software</span>
+                               <span className="animate-bounce-slow duration-75">developer</span>
+                            </animated.h1>
 
                             <a href={`mailto:${management}`} className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-white duration-100 border-neon border-2 text-neon rounded-lg">Reach out to me!</a>
                         </div>
