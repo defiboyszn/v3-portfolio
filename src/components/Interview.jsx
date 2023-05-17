@@ -20,12 +20,12 @@ export const Interview = () => {
                 <motion.h1 initial={{ y: -1000, transitionProperty: "all", transitionTimingFunction: "ease", transitionDelay: "initial" }} animate={{ y: 0, transitionProperty: "all", transitionTimingFunction: "ease" }} className="text-5xl mb-10 font-Recoleta-black">Interviews</motion.h1>
                 <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-11 px-5">
                     {interview.map((data, i) => (
-                        <Card h={true}>
+                        // <Card h={true}>
                             <motion.div className="md:px-6 py-4 flex flex-col gap-y-4">
                                 <motion.iframe className="w-[290px] md:w-[560px] h-[315px]" src={data.embed} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></motion.iframe>
                                 <motion.div className="font-normal font-clash-display w-[290px] md:w-fit text-xl mb-2">{data.name}</motion.div>
                             </motion.div>
-                        </Card>
+                        // </Card>
                     ))}
                 </motion.div>
             </motion.div>

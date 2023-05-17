@@ -36,7 +36,7 @@ export const About = () => {
                 <div className="flex flex-col items-center justify-center">
                     <div className="flex flex-col gap-10">
 
-                        <h1 className="text-3xl md:text-4xl font-Recoleta-black text-outline font-bold">Brands i/i've worked for</h1>
+                        <h1 className="text-3xl md:text-[80px] font-clash-display uppercase font-bold">Brands i/i've worked for</h1>
                         <div className="grid grid-cols-4 gap-4 md:grid-cols-8 place-items-center">
                             <img src={vefi} alt="vefi" className="object-contain w-[50px] grayscale hover:grayscale-0 h-[50px]" />
                             <img src={eddify} alt="eddify" className="object-contain w-[50px] grayscale hover:grayscale-0 h-[50px]" />
@@ -54,8 +54,8 @@ export const About = () => {
                     </div>
 
                     <div className="w-full text-center relative flex flex-col mt-20">
-                        <h1 className="text-3xl md:text-4xl font-Recoleta-black font-black">What i do!</h1>
-                        <div className=" w-full bottom-0">
+                        <h1 className="text-3xl md:text-[100px] font-clash-display uppercase font-black">What i do!</h1>
+                        <div className="w-full bottom-0">
                             <Banner />
                         </div>
                     </div>

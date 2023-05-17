@@ -9,29 +9,31 @@ export const Projects = () => {
     return (
         <>
             <div id="projects" className="md:mt-8 font-sans h-fit">
-                <div className="text-center text-3xl px-20">
-                    <h1 className="text-3xl md:text-[100px] leading-[101.48px] font-clash-display font-semibold">Works</h1>
+                <div className="text-left text-3xl px-20">
+                    <h1 className="text-3xl md:text-[140px] uppercase leading-[101.48px] font-clash-display font-semibold">Recent Work</h1>
                 </div>
-                <div ref={ref} className="pb-10 grid grid-cols-1 px-10 py-10 place-items-start md:mt-10 gap-5 w-screen h-fit">
+                <div ref={ref} className="pb-10 grid grid-cols-1 px-5 py-10 place-items-start md:mt-10 gap-5 w-screen h-fit">
                     {
                         projects.map((data, i) => (
                             <Card h key={i}>
-                                <div className="flex flex-col items-center md:flex-row gap-12">
+                                <a href={data.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center md:flex-row gap-12 w-full">
                                     {/* <img className="object-contain w-[340px] rounded-[16px]" src={data.img} alt={data.title} /> */}
-                                    <div className="flex flex-row justify-between items-center gap-5">
-                                        <h1 className="text-xl md:text-[50px] md:leading-[100.48px] font-clash-display font-semibold">{data.title}</h1>
-
-                                        <motion.div className="flex flex-row justify-between items-center">
-                                            <p className="text-white text-base">
+                                    <div className="flex flex-row justify-between items-center gap-5 w-full">
+                                        <motion.div className="flex flex-row justify-between items-center gap-5">
+                                            <h1 className="text-xl md:text-[70px] md:leading-[100.48px] font-clash-display font-semibold">{data.title}</h1>
+                                            {/* <p className="text-white text-base">
                                                 <a href={data.link} target="_blank" rel="noopener noreferrer" className="text-indigo-400">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
                                                         <path d="M20 7.50001L20 1.50001M20 1.50001H14M20 1.50001L11 10.5M9 1.5H6.8C5.11984 1.5 4.27976 1.5 3.63803 1.82698C3.07354 2.1146 2.6146 2.57354 2.32698 3.13803C2 3.77976 2 4.61984 2 6.3V14.7C2 16.3802 2 17.2202 2.32698 17.862C2.6146 18.4265 3.07354 18.8854 3.63803 19.173C4.27976 19.5 5.11984 19.5 6.8 19.5H15.2C16.8802 19.5 17.7202 19.5 18.362 19.173C18.9265 18.8854 19.3854 18.4265 19.673 17.862C20 17.2202 20 16.3802 20 14.7V12.5" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                                                     </svg>
                                                 </a>
-                                            </p>
+                                            </p> */}
                                         </motion.div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                                        </svg>
                                     </div>
-                                </div>
+                                </a>
                             </Card>
                         ))
                     }

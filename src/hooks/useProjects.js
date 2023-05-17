@@ -10,8 +10,8 @@ export const useProjects = () => {
         {
             img: cns,
             title: "CNS",
-            description: "CNS - Decentralized Identity (DID) Built on Polygon",
-            link: "https://trycns.vercel.app/"
+            description: "CNS - Decentralized Identity (DID) Built on Polygon and Zetachain",
+            link: "https://trycns.hiestobi.xyz/"
         },
         {
             img: Frixx,
@@ -21,7 +21,7 @@ export const useProjects = () => {
         },
         {
             img: devfest,
-            title: "Devfest Enugu 2022",
+            title: "Devfest",
             description: "Devfest Enugu 2022 was an event hosted by google developer group. I volunteered to build the landing page for the event last year (2022)",
             link: "https://devfestenugu.vercel.app/"
         },
