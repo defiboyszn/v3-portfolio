@@ -11,7 +11,7 @@ export const useProjects = () => {
             img: cns,
             title: "CNS",
             description: "CNS - Decentralized Identity (DID) Built on Polygon and Zetachain",
-            link: "https://trycns.hiestobi.xyz/"
+            link: "https://trycns.heistobi.xyz/"
         },
         {
             img: Frixx,
