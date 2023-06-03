@@ -133,6 +133,17 @@ html.lenis {
   font-style: italic;
 }
 
+  /* Tanker */
+  @font-face {
+    font-family:'Tanker';
+    src: url('/fonts/Tanker-Regular.eot');
+    src: url('/fonts/Tanker-Regular.ttf');
+    src: url('/fonts/Tanker-Regular.woff');
+    src: url('/fonts/Tanker-Regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 @font-face {
   font-family: "clash-display";
@@ -173,20 +184,9 @@ html.lenis {
   font-family: "Recoleta-Thin";
   src: url("/fonts/Recoleta-Thin.ttf");
 }
-
-@font-face {
-  font-family: "death-star";
-  src: url("/fonts/death-star.otf");
-}
-
-@font-face {
-  font-family: "circular-std-book";
-  src: url("/fonts/circular-Std-Book.ttf");
-}
-
 @layer base {
   body {
-    @apply bg-[#FBFBF2] !text-[#000000] overflow-x-hidden;
+    @apply bg-[#0c0c0c] !text-[#000000] overflow-x-hidden;
   }
 
   /* :root {
@@ -254,12 +254,12 @@ html.lenis {
 
   .nav-li:hover {
     scale: 1.1;
-    @apply border-t-4 border-t-[#8000ff] font-death-star;
+    @apply border-t-4 border-t-[#8000ff] font-sans;
   }
 
   .nav_li:hover {
     scale: 1.1;
-    @apply border-t-4 font-death-star;
+    @apply border-t-4 font-sans;
   }
 
   .nav_li:hover::before {
@@ -295,7 +295,7 @@ html.lenis {
     /* font-size: 2em; */
     font-weight: 600;
     color: rgb(225, 225, 255, 0.1);
-    @apply font-Recoleta-black flex-col text-4xl md:text-6xl;
+    @apply font-Tanker flex-col text-4xl md:text-6xl;
     z-index: 1;
     pointer-events: none;
     opacity: 0;
@@ -608,7 +608,7 @@ html.lenis {
 
 @layer base {
   .font-outline-2 {
-    -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px white;
   }
   .font-outline-4 {
     -webkit-text-stroke: 4px black;

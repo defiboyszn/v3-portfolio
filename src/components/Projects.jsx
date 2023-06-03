@@ -8,9 +8,9 @@ export const Projects = () => {
     const ref = useRef()
     return (
         <>
-            <div id="projects" className="md:mt-8 font-sans h-fit">
-                <div className="text-left text-3xl px-20">
-                    <h1 className="text-3xl md:text-[140px] uppercase leading-[101.48px] font-clash-display font-semibold">Recent Work</h1>
+            <div id="projects" className="mt-20 font-sans h-fit flex flex-col justify-center items-center">
+                <div className="text-left text-3xl md:px-20">
+                    <h1 className="text-[50px] w-full md:text-[140px] uppercase leading-[40.48px] font-Tanker text-white font-semibold">Recent Work</h1>
                 </div>
                 <div ref={ref} className="pb-10 grid grid-cols-1 px-5 py-10 place-items-start md:mt-10 gap-5 w-screen h-fit">
                     {
@@ -19,7 +19,7 @@ export const Projects = () => {
                                 <a href={data.link} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center md:flex-row gap-12 w-full">
                                     {/* <img className="object-contain w-[340px] rounded-[16px]" src={data.img} alt={data.title} /> */}
                                     <div className="flex flex-row justify-between items-center gap-5 w-full">
-                                        <motion.div className="flex flex-row justify-between items-center gap-5">
+                                        <motion.div className="flex flex-row justify-between items-center gap-5 !text-white">
                                             <h1 className="text-xl md:text-[70px] md:leading-[100.48px] font-clash-display font-semibold">{data.title}</h1>
                                             {/* <p className="text-white text-base">
                                                 <a href={data.link} target="_blank" rel="noopener noreferrer" className="text-indigo-400">

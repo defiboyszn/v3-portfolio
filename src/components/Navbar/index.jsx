@@ -15,15 +15,15 @@ export const Navbar = () => {
     // }
     return (
         <>
-            <motion.div className="fixed z-[99999] bg-white/40 w-screen grid place-self-center md:px-10 h-20 !text-[#000000]">
+            <motion.div className="fixed z-[99999] bg-[#111]/40 w-screen grid place-self-center md:px-10 h-20 !text-[#fff]">
                 <motion.div className="px-4 py-6 flex flex-row justify-between items-center">
                     <div className="flex flex-row items-center gap-1">
-                        <img src={"/favicon.png"} alt="logo" className="object-contain" style={{
+                        <img src={"/images/tobi-logo.png"} alt="logo" className="object-contain" style={{
                             height: "40px",
                             width: "40px",
                             color: "transparent"
                         }} />
-                        <motion.h1 className="text-xl font-Recoleta-black lg:text-3xl">.card</motion.h1>
+                        <motion.h1 className="text-xl text-white font-sans lg:text-3xl">.card</motion.h1>
                     </div>
                     <motion.div>
                     </motion.div>
@@ -31,7 +31,7 @@ export const Navbar = () => {
                         <a href={`mailto:${personal}`} className="flex flex-row items-center justify-center gap-2" target="_blank" rel="noopener noreferrer">
                             <motion.h1 className="text-xl font-clash-display font-medium">Talk to me</motion.h1>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
-                                <path d="M20 7.50001L20 1.50001M20 1.50001H14M20 1.50001L11 10.5M9 1.5H6.8C5.11984 1.5 4.27976 1.5 3.63803 1.82698C3.07354 2.1146 2.6146 2.57354 2.32698 3.13803C2 3.77976 2 4.61984 2 6.3V14.7C2 16.3802 2 17.2202 2.32698 17.862C2.6146 18.4265 3.07354 18.8854 3.63803 19.173C4.27976 19.5 5.11984 19.5 6.8 19.5H15.2C16.8802 19.5 17.7202 19.5 18.362 19.173C18.9265 18.8854 19.3854 18.4265 19.673 17.862C20 17.2202 20 16.3802 20 14.7V12.5" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M20 7.50001L20 1.50001M20 1.50001H14M20 1.50001L11 10.5M9 1.5H6.8C5.11984 1.5 4.27976 1.5 3.63803 1.82698C3.07354 2.1146 2.6146 2.57354 2.32698 3.13803C2 3.77976 2 4.61984 2 6.3V14.7C2 16.3802 2 17.2202 2.32698 17.862C2.6146 18.4265 3.07354 18.8854 3.63803 19.173C4.27976 19.5 5.11984 19.5 6.8 19.5H15.2C16.8802 19.5 17.7202 19.5 18.362 19.173C18.9265 18.8854 19.3854 18.4265 19.673 17.862C20 17.2202 20 16.3802 20 14.7V12.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </a>
                         <button onClick={() => setIsOpen(isOpen => !isOpen)}>
@@ -41,8 +41,8 @@ export const Navbar = () => {
                                     transition={{ type: "just", stiffness: 400, damping: 17 }}
                                     initial={{ y: -50 }} animate={{ y: 0 }} whileTap={{ scale: 0.9 }}
                                     xmlns="http://www.w3.org/2000/svg" width="60" height="19" viewBox="0 0 60 19" fill="none">
-                                    <line x1="2" y1="2" x2="57.9756" y2="2" stroke="black" stroke-width="4" stroke-linecap="round" />
-                                    <line x1="2.02441" y1="17" x2="58" y2="17" stroke="black" stroke-width="4" stroke-linecap="round" />
+                                    <line x1="2" y1="2" x2="57.9756" y2="2" stroke="white" stroke-width="4" stroke-linecap="round" />
+                                    <line x1="2.02441" y1="17" x2="58" y2="17" stroke="white" stroke-width="4" stroke-linecap="round" />
                                 </motion.svg>
                             </div>
 

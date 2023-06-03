@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 import { animated } from '@react-spring/web'
 import bg1 from "../../assets/bg1.svg"
 import { Link } from 'react-scroll';
-import { management } from '../../utils/emails';
+import { management, personal } from '../../utils/emails';
 
 
 
@@ -16,16 +16,18 @@ export const Hero = () => {
             <div className='flex flex-col bg-cover bg-no-repeat justify-center items-center overflow-hidden' style={{
                 backgroundImage: `url(${bg1})`
             }} id="hero">
-                <div className={`h-screen w-full flex flex-col justify-center space-y-56 items-center`}>
-                    <div className="px-9 md:px-20 gap-20 md:gap-0 flex flex-col md:flex-row justify-center items-center">
+                <div className={`h-full pb-20 pt-40 w-full flex flex-col justify-center space-y-56 items-center`}>
+                    <div className="px-9 md:px-20 gap-20 flex md:flex-row md:justify-between flex-col justify-center items-center w-screen">
                         <div className="flex flex-col justify-center items-center">
-                            <animated.h1 className='font-clash-display uppercase !text-transparent font-outline-2 font-[900] text-center text-[60px] leading-[63px] md:text-[140px] md:leading-[130px] transition-all ease-[ease]'>
-                                Web3 <br />
+                            <animated.h1 className='font-sans uppercase md:text-[140px] md:leading-[150px] !text-transparent font-outline-2 font-[900] md:text-left text-[60px] leading-[63px] transition-all ease-[ease]'>
+                                Web3 
+                                {/* <br /> */}
                                <span className="color-slide">Software</span>
-                               <span className="animate-bounce-slow duration-75">developer</span>
+                                {/* <br /> */}
+                               <span>developer</span>
                             </animated.h1>
 
-                            <a href={`mailto:${management}`} className="py-2 px-5 !mt-10 hover:bg-neon hover:border-neon hover:backdrop-blur-lg hover:text-white duration-100 border-neon border-2 text-neon rounded-lg">Reach out to me!</a>
+                            <a href={`mailto:${personal}`} className="py-2 px-5 !mt-10 hover:bg-white/20 hover:border-bg-white hover:backdrop-blur-lg hover:text-white duration-100 border-white border-2 text-white rounded-lg">Reach out to me!</a>
                         </div>
                         <Link
                             activeClass="active"
@@ -38,11 +40,11 @@ export const Hero = () => {
                         >
                             <div className="relative flex flex-col items-center justify-center">
                                 <svg className="absolute animate-spin-slow duration-75" xmlns="http://www.w3.org/2000/svg" width="190" height="190" viewBox="0 0 190 190" fill="none">
-                                    <circle cx="95" cy="95" r="94.25" stroke="black" stroke-width="2.5" stroke-dasharray="15 18" />
+                                    <circle cx="95" cy="95" r="94.25" stroke="white" stroke-width="2.5" stroke-dasharray="15 18" />
                                 </svg>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="119" height="110" viewBox="0 0 119 126" fill="none">
-                                    <path d="M60 4L60 116" stroke="black" stroke-width="3" stroke-linecap="round" />
-                                    <path d="M4 72L60 120.5L115 72" stroke="black" stroke-width="3" stroke-linecap="round" />
+                                    <path d="M60 4L60 116" stroke="white" stroke-width="10" stroke-linecap="round" />
+                                    <path d="M4 72L60 120.5L115 72" stroke="white" stroke-width="10" stroke-linecap="round" />
                                 </svg>
                             </div>
                         </Link>

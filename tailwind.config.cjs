@@ -16,8 +16,6 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Gilroy", "sans-serif"],
-        "death-star": ["death-star"],
-        "circular-std-book": ["circular-std-book"],
         "clash-display": ["clash-display"],
         "Recoleta-black": ["Recoleta-black"],
         "Recoleta-Bold": ["Recoleta-Bold"],
@@ -26,6 +24,7 @@ module.exports = {
         "Recoleta-Regular": ["Recoleta-Regular"],
         "Recoleta-SemiBold": ["Recoleta-SemiBold"],
         "Recoleta-Thin": ["Recoleta-Thin"],
+        Tanker: ['Tanker'],
       },
       backgroundImage: {
         background: "url('/src/assets/bg.jpeg')",

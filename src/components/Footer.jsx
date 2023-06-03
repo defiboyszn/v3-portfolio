@@ -6,7 +6,7 @@ export const Footer = () => {
         <>
             <div id="contact" className="relative overflow-hidden flex flex-col gap-10 px-2 md:px-24 font-clash-display h-[fit] bg-black !text-white">
                 <div className="flex flex-row justify-between items-center gap-14 md:gap-20 mt-10">
-                    <h1 className="text-3xl px-10 md:px-0 md:text-[60px] md:leading-[70.48px] font-clash-display font-semibold md:w-[509px]">Got a Project to work with?</h1>
+                    <h1 className="text-3xl px-10 md:px-0 md:text-[60px] md:leading-[70.48px] font-clash-display font-semibold md:w-[509px]">Want me to work with you on your project?</h1>
 
                     <a href={`mailto:${personal}`} className="relative flex flex-col items-center justify-center">
                         <svg className="absolute animate-spin-slow duration-[25ms]" xmlns="http://www.w3.org/2000/svg" width="190" height="190" viewBox="0 0 190 190" fill="none">
