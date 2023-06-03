@@ -37,6 +37,12 @@ export const useProjects = () => {
             description: "Swyype is a decentralized system created to provide a easy liquidating of crypto asset to fiat through physical and virtual payment card.",
             link: "https://www.swyypepay.com/"
         },
+        {
+            img: "",
+            title: "Zendmart",
+            description: "Zendmart is a decentralized online marketplace",
+            link: "https://www.zendmart.xyz/"
+        },
     ])
     return projects
 }
