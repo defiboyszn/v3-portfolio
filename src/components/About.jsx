@@ -7,6 +7,7 @@ import smartklas from "../assets/smartklas.jpeg"
 import artreus from "../assets/artreus.jpeg"
 import swyype from "../assets/swyype.svg"
 import frixx from "../assets/frixx.svg"
+import zendmart from "../assets/zendmart.jpg"
 import gdg from "../assets/gdg.png"
 import smartdeployer from "../assets/smartdeployer.svg"
 import cns from "../assets/cns-logo.png"
@@ -55,6 +56,7 @@ export const About = () => {
                             <img src={swyype} alt="swyype" className="object-contain w-[50px] grayscale hover:grayscale-0 h-[50px]" />
                             <img src={artreus} alt="artreus" className="object-contain w-[50px] grayscale hover:grayscale-0 h-[50px]" />
                             <img src={cns} alt="cns" className="object-contain w-[50px] grayscale hover:grayscale-0 h-[50px]" />
+                            <img src={zendmart} alt="zendmart" className="object-contain w-[50px] grayscale hover:grayscale-0 h-[50px]" />
                         </div>
                     </div>
 
