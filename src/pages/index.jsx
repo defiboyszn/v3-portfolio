@@ -4,6 +4,7 @@ import { Interview } from "../components/Interview"
 import { Projects } from "../components/Projects"
 
 export function Home() {
+
   return (
     <div>
       <Hero />

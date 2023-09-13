@@ -184,9 +184,19 @@ html.lenis {
   font-family: "Recoleta-Thin";
   src: url("/fonts/Recoleta-Thin.ttf");
 }
+
+
+.font-bricolage {
+  font-family: 'Bricolage Grotesque'
+}
+.\!font-bricolage {
+  font-family: 'Bricolage Grotesque' !important;
+}
+
+
 @layer base {
   body {
-    @apply bg-[#0c0c0c] !text-[#000000] overflow-x-hidden;
+    @apply bg-[#0c0c0c] !text-[#000000] overflow-x-hidden !font-bricolage;
   }
 
   /* :root {
@@ -295,7 +305,7 @@ html.lenis {
     /* font-size: 2em; */
     font-weight: 600;
     color: rgb(225, 225, 255, 0.1);
-    @apply font-Tanker flex-col text-4xl md:text-6xl;
+    @apply font-bricolage flex-col text-4xl md:text-6xl;
     z-index: 1;
     pointer-events: none;
     opacity: 0;

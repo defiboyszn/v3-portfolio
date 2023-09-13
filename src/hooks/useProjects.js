@@ -14,18 +14,6 @@ export const useProjects = () => {
             link: "https://trycns.heistobi.xyz/"
         },
         {
-            img: Frixx,
-            title: "Frixx",
-            description: "Frixx is a web3 ecosystem that leverages blockchain technology to create innovative solutions for various problems in Africa and beyond.",
-            link: "https://frixxapp.com"
-        },
-        {
-            img: devfest,
-            title: "Devfest",
-            description: "Devfest Enugu 2022 was an event hosted by google developer group. I volunteered to build the landing page for the event last year (2022)",
-            link: "https://devfestenugu.vercel.app/"
-        },
-        {
             img: smartdeployer,
             title: "SmartDeployer",
             description: "SmartDeployer Is A No-Code Platform That Enables Anyone To Create And Manage Tokens On The Core Chain Easily",
@@ -42,6 +30,18 @@ export const useProjects = () => {
             title: "Zendmart",
             description: "Zendmart is a decentralized online marketplace",
             link: "https://www.zendmart.xyz/"
+        },
+        {
+            img: "",
+            title: "Lest Protocol",
+            description: "Lestprotocol web 3 ecosystem",
+            link: "https://www.lestprotocol.xyz/"
+        },
+        {
+            img: "",
+            title: "Sendtokens",
+            description: "Sendtokens web 3 ecosystem",
+            link: "https://www.sendtokens.xyz/"
         },
     ])
     return projects

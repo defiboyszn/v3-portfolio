@@ -23,13 +23,13 @@ export const Navbar = () => {
                             width: "40px",
                             color: "transparent"
                         }} />
-                        <motion.h1 className="text-xl text-white font-sans lg:text-3xl">.card</motion.h1>
+                        <motion.h1 className="text-xl text-white font-bricolage lg:text-3xl uppercase font-bricolage">$Defiiboy</motion.h1>
                     </div>
                     <motion.div>
                     </motion.div>
                     <motion.div className="flex flex-row gap-12 justify-center items-center">
                         <a href={`mailto:${personal}`} className="flex flex-row items-center justify-center gap-2" target="_blank" rel="noopener noreferrer">
-                            <motion.h1 className="text-xl font-clash-display font-medium">Talk to me</motion.h1>
+                            <motion.h1 className="text-xl ffont-bricolage font-medium">Talk to me</motion.h1>
                             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
                                 <path d="M20 7.50001L20 1.50001M20 1.50001H14M20 1.50001L11 10.5M9 1.5H6.8C5.11984 1.5 4.27976 1.5 3.63803 1.82698C3.07354 2.1146 2.6146 2.57354 2.32698 3.13803C2 3.77976 2 4.61984 2 6.3V14.7C2 16.3802 2 17.2202 2.32698 17.862C2.6146 18.4265 3.07354 18.8854 3.63803 19.173C4.27976 19.5 5.11984 19.5 6.8 19.5H15.2C16.8802 19.5 17.7202 19.5 18.362 19.173C18.9265 18.8854 19.3854 18.4265 19.673 17.862C20 17.2202 20 16.3802 20 14.7V12.5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
@@ -53,7 +53,7 @@ export const Navbar = () => {
             <motion.div
                 animate={isOpen ? "open" : "closed"}
                 variants={variants} ref={ref}
-                className="flex flex-col-reverse md:flex-row justify-evenly items-center transition-all duration-500 px-5 font-sans text-2xl h-screen overflow-hidden w-screen fixed top-0 z-[999999] bg-[#191919]/80"
+                className="flex flex-col-reverse md:flex-row justify-evenly items-center transition-all duration-500 px-5 font-bricolage text-2xl h-screen overflow-hidden w-screen fixed top-0 z-[999999] bg-[#191919]/80"
             >
                 <motion.div className="flex flex-row space-x-6">
                     <a href="https://facebook.com/tobithealpha">
@@ -65,12 +65,18 @@ export const Navbar = () => {
                         </svg>
                     </a>
                     <a href="https://twitter.com/realtobi_eth">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
-                            data-color="#00acee"
-                            className="nav_li hover:pt-2 hover:text-[#00acee] text-gray-300 w-10 h-10" viewBox="0 0 16 16">
+                        <svg
+                            className="nav_li hover:pt-2 hover:text-[#111] text-gray-300 w-10 h-10"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 1200 1227"
+                            fill="none"
+                        >
                             <path
-                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+                                fill="currentColor"
+                            />
                         </svg>
+
                     </a>
                     <a href="https://instagram.com/realtobi_eth">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
