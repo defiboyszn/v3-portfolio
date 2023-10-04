@@ -1,7 +1,7 @@
 import genz from "../assets/genz.png"
 import zendmart from "../assets/zendmart.jpg"
 import sendtokens from "../assets/sendtokens.jpg"
-import smartdeployer from "../assets/smartdeployer.svg"
+import telos from "../assets/telos.jpg"
 import lest from "../assets/lest.svg"
 import bg from "../assets/bg1.svg"
 // import { Banner } from './Banner';
@@ -38,11 +38,11 @@ export const About = () => {
 
                         <h1 className="text-3xl md:text-[80px] text-center !font-bricolage uppercase font-bold">Brands i/i've worked for</h1>
                         <div className="px-10 md:px-0 grid grid-cols-4 gap-4 md:grid-cols-4 place-items-center">
-                            <img src={genz} alt="genz" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
-                            <img src={smartdeployer} alt="smartdeployer" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
+                            {/* <img src={genz} alt="genz" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" /> */}
                             <img src={zendmart} alt="zendmart" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
                             <img src={sendtokens} alt="sendtokens" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
                             <img src={lest} alt="lest" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
+                            <img src={telos} alt="telos" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
                         </div>
                     </div>
                 </div>

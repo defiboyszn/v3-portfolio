@@ -33,7 +33,7 @@ export const Footer = () => {
 
 
                         <ul className="flex flex-row justify-between items-center gap-10">
-                            <li><a className="font-bricolage font-[400] text-[16px]" href="https://twitter.com/realtobi_eth">Twitter</a></li>
+                            <li><a className="font-bricolage font-[400] text-[16px]" href="https://twitter.com/defiboyszn">Twitter</a></li>
                             <li><a className="font-bricolage font-[400] text-[16px]" href="https://linkedin.com/in/tobithealpha">Linkedin</a></li>
                             <li><a className="font-bricolage font-[400] text-[16px]" href="https://github.com/tobithedev">Github</a></li>
                             {/* <li><a className="font-bricolage font-[400] text-[25px]" href="https://blog.realtobi.xyz">Blog</a></li> */}
