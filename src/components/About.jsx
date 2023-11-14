@@ -24,7 +24,7 @@ export const About = () => {
                             }} />
                             <span className="mt-10 text-xl !font-bricolage md:text-2xl text-[#ffffffff] md:w-1/2 px-5">
                                 I am a software developer based in Nigeria. I am a software developer with 4+ years of experience building cool products/projects.
-                                I'm also a web3 developer, blockchain developer and a community manager. I'm a 3x Founder building products around blockchain. I'm the <b>Defiiboy</b> :)
+                                I'm also a web3 developer, blockchain developer, DevRel and a community manager. I'm a 3x Founder building products around blockchain. I'm the <b>Defiiboy</b> :)
                                 <br />
                                 I've built projects like <a className="underline" target="_blank" href="https://dativejs.js.org">Dativejs</a>. You like my works/projects or me 😉😉 show it on my <a className="underline" href="https://www.buymeacoffee.com/tobithealpha" target="_blank" rel="noopener noreferrer">Buymeacoffe</a>
                             </span>
@@ -41,7 +41,7 @@ export const About = () => {
                             {/* <img src={genz} alt="genz" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" /> */}
                             <img src={zendmart} alt="zendmart" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
                             <img src={sendtokens} alt="sendtokens" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
-                            <img src={lest} alt="lest" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
+                            {/* <img src={lest} alt="lest" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" /> */}
                             <img src={telos} alt="telos" className="object-contain w-[200px] grayscale hover:grayscale-0 md:h-[200px]" />
                         </div>
                     </div>

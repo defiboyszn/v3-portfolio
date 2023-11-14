@@ -8,12 +8,12 @@ export const useProjects = () => {
             description: "Zendmart is a decentralized online marketplace",
             link: "https://www.zendmart.xyz/"
         },
-        {
-            img: "",
-            title: "Lest Protocol",
-            description: "Lestprotocol web 3 ecosystem",
-            link: "https://www.lestprotocol.xyz/"
-        },
+        // {
+        //     img: "",
+        //     title: "Lest Protocol",
+        //     description: "Lestprotocol web 3 ecosystem",
+        //     link: "https://www.lestprotocol.xyz/"
+        // },
         {
             img: "",
             title: "Sendtokens",

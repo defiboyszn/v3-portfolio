@@ -13,8 +13,8 @@ export const Hero = () => {
 
     return (
         <>
-            <div className='flex flex-col bg-cover bg-no-repeat justify-center items-center overflow-hidden' style={{
-                backgroundImage: `url(${bg})`
+            <div className='flex flex-col bg-cover bg-no-repeat justify-center items-center overflow-hidden h-screen' style={{
+                backgroundImage: `url('/images/animation.gif')`
             }} id="hero">
                 <div className={`h-full pb-20 pt-40 w-full flex flex-col justify-center space-y-56 items-center`}>
                     <div className="px-9 md:px-20 gap-20 flex md:flex-row md:justify-between flex-col justify-center items-center w-screen">

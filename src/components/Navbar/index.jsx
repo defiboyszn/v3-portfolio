@@ -23,7 +23,7 @@ export const Navbar = () => {
                             width: "40px",
                             color: "transparent"
                         }} />
-                        <motion.h1 className="text-xl text-white font-bricolage lg:text-3xl uppercase font-bricolage">$Defiiboy</motion.h1>
+                        <motion.h1 className="text-xl text-white font-bricolage lg:text-3xl uppercase font-bricolage">Defiboy</motion.h1>
                     </div>
                     <motion.div>
                     </motion.div>
