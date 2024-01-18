@@ -29,13 +29,21 @@ export const Footer = () => {
                         </ul>
 
 
+<<<<<<< HEAD
                         <p className="font-bricolage font-[400] text-[16px]">© {new Date().getFullYear()} Tobi</p>
+=======
+                        <p className="font-bricolage font-[400] text-[16px]">© 2023 Tobi</p>
+>>>>>>> 7751faafa703dd03a2bc913d4696bd1cb9188185
 
 
                         <ul className="flex flex-row justify-between items-center gap-10">
                             <li><a className="font-bricolage font-[400] text-[16px]" href="https://twitter.com/defiboyszn">Twitter</a></li>
                             <li><a className="font-bricolage font-[400] text-[16px]" href="https://linkedin.com/in/tobithealpha">Linkedin</a></li>
+<<<<<<< HEAD
                             <li><a className="font-bricolage font-[400] text-[16px]" href="https://github.com/defiboyszn">Github</a></li>
+=======
+                            <li><a className="font-bricolage font-[400] text-[16px]" href="https://github.com/tobithedev">Github</a></li>
+>>>>>>> 7751faafa703dd03a2bc913d4696bd1cb9188185
                             {/* <li><a className="font-bricolage font-[400] text-[25px]" href="https://blog.realtobi.xyz">Blog</a></li> */}
                         </ul>
                     </div>
